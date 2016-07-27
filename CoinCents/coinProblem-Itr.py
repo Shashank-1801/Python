@@ -60,8 +60,8 @@ def coinProb(c):
 def main():
     print("Coin problem for homework assignment-iterative Solution")
     a = datetime.datetime.now()
-    #print("Coins needed are : " + str(coinProb(21)))
-    for c in range(1, 1001):
+    # print("Coins needed are : " + str(coinProb(21)))
+    for c in range(1, 61):
         print("For " + str(c) + ", Coins needed are : " + str(coinProb(c)))
         rem = c
         while rem != 0:
